@@ -1,14 +1,14 @@
 import { Request, Response } from "express";
 
 export const home = (req: Request, res: Response) => {
-    res.send('Page Home');
+    res.render('pages/page');
 }
 export const dogs = (req: Request, res: Response) => {
-    res.send('Page Dogs');
+    res.send('dogs');
 }
 export const cats = (req: Request, res: Response) => {
-    res.send('Page Cats');
+    res.send('cats');
 }
 export const fishes = (req: Request, res: Response) => {
-    res.send('Page Fishes');
+    res.send('fishes');
 }
