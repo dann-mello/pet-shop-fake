@@ -1,11 +1,11 @@
 # pet-shop-fake
-Projeto feito no módulo do curso Node + Typescript
+Project made in the course module Node + Typescript
 
-### Pré requisitos:
+### Prerequisites:
 `npm i -g nodemon typescript ts-node`
 
-### Instalação
+### Installation
 `npm install`
 
-### Iniciar projeto
+### Start project
 `npm run start-dev`
